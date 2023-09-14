@@ -1,0 +1,11 @@
+.Loom {
+    padding: 6rem;
+    background:transparent;
+  }
+
+  .p {
+    text-align: center;
+    color:rgb(253, 250, 250);
+    font-size: 100px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  }

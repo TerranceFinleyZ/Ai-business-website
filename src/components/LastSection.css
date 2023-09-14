@@ -1,0 +1,11 @@
+.sas-container {
+    padding: 1rem;
+    background: rgb(227, 220, 220); 
+}
+
+.h7-ss {
+    display: inline-block;
+    zoom: 1; /* Trigger hasLayout */
+    width: 33%;
+    text-align: center;
+}

@@ -1,0 +1,75 @@
+.sign-container {
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+}
+
+.sign-container {
+    background-image: url('https://wallpaperaccess.com/full/2804476.jpg');
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    color: #e7dcdce8;
+    font-size: 100px;
+
+}
+
+
+
+  .btn--outline {
+    background-color: transparent;
+    color: #fff;
+    padding: 8px 20px;
+    border: 1px solid var(--primary);
+    transition: all 0.3s ease-out;
+}
+
+.sign-input {
+    padding: 8px 20px;
+    border-radius: 24px;
+    margin-right: 10px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    margin-bottom: 16px;
+    border: 1px solid #fff;
+}
+
+.button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color:transparent;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    
+}
+
+@media screen and (max-width: 1024px) {
+    .sign-container {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .sign-input {
+        flex-direction: column;
+    }    
+}
+
+@media screen {
+    .button {
+        flex-direction: column;
+    }
+}
+
+@media screen {
+    .h3 {
+        text-align: center;
+    }
+}

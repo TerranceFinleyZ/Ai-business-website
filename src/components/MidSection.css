@@ -1,0 +1,11 @@
+.MidSection {
+    padding: 4rem;
+    background: white;
+  }
+
+  h4 {
+    text-align: center;
+    color:rgb(12, 12, 12);
+    font-size: 2em;
+    font-weight: bold;
+  }

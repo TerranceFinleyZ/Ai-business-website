@@ -1,0 +1,24 @@
+.art {
+    padding: 6rem;
+    background:transparent;
+  }
+
+  h3 {
+    text-align: center;
+    color:rgb(253, 250, 250);
+    font-size: 100px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  }
+
+  @media screen and (max-width: 980px) {
+    .art {
+        flex-direction: column;
+      
+    }
+}
+
+@media screen and (max-width: 980px) {
+  .h3 {
+    flex-direction: column;
+  }
+}
