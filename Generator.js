@@ -19,7 +19,7 @@ function Generator() {
         headers:{
           "Content-Type":"application/json",
           Authorization:
-          "Bearer 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",
+          "Bearer",
           "User-Agent":"Chromo",
         },
         body:JSON.stringify({
